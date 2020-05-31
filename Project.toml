@@ -1,0 +1,13 @@
+name = "Lean"
+uuid = "120d0d2d-44ba-490f-818e-68b6e21883d4"
+authors = ["miguelraz <miguelraz@ciencias.unam.mx> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
